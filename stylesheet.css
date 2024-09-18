@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'logo';
+    src: url(font/Norse-Bold.otf);
+}
+
+h1{
+    font-family: 'logo';
+}
