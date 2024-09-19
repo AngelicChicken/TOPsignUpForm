@@ -13,4 +13,16 @@ body{
 
 .backgroundImage{
     background: #fff url(image/halie-west-25xggax4bSA-unsplash.jpg);
+    width: 30vw;
+    height: fit-content;
 }
+
+form{
+    display: flex;
+}
+
+.left, .right{
+    display: flex;
+    flex-direction: column;
+}
+
