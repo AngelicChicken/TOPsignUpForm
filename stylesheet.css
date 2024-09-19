@@ -3,6 +3,14 @@
     src: url(font/Norse-Bold.otf);
 }
 
-h1{
-    font-family: 'logo';
+body{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.backgroundImage{
+    background: #fff url(image/halie-west-25xggax4bSA-unsplash.jpg);
 }
