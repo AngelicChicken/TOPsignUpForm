@@ -13,7 +13,27 @@ body{
 .backgroundImage{
     background: #fff url(image/halie-west-25xggax4bSA-unsplash.jpg);
     width: 30vw;
+    flex-shrink: 0;
+    height: 100vh;
+}
+
+.logo{
+    display: flex;
+    background-color: rgba(0, 0, 0, 40%);
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20vh;
+}
+
+img{
+    width: 20%;
     height: fit-content;
+}
+
+.logoText{
+    font: 5em "logo";
+    color: white;
 }
 
 form{
