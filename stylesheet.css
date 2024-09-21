@@ -12,6 +12,8 @@ body{
 
 .backgroundImage{
     background: #fff url(image/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 30vw;
     flex-shrink: 0;
     height: 100vh;
@@ -23,7 +25,7 @@ body{
     height: 20vh;
     justify-content: center;
     align-items: center;
-    padding-top: 20vh;
+    margin-top: 20vh;
 }
 
 img{
