@@ -38,13 +38,54 @@ img{
     color: white;
 }
 
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 5%);
+}
+
+.paragraph{
+    font-weight: bold;
+    font-size: larger;
+    margin: 10vh 15vw 2vh 5vw;
+    margin-left: 5vw;
+    margin-right: 15vw;
+}
+
+.formSentence{
+    font-weight: bold;
+    font-size: larger; 
+}
+
 form{
     display: flex;
+    
+}
+
+.form{
+    background-color: white;
+    box-shadow: 2px 2px 2px #d0d0d1;
+    width: 65vw;
+    padding-left: 5vw;
+    height: 32vh;
+}
+
+label{
+    font-size: small;
 }
 
 .left, .right{
     display: flex;
     flex-direction: column;
+}
+
+.right{
+    margin-left: 5vw;
+}
+
+input{
+    margin-bottom: 2.5vh;
 }
 
 input:focus {
@@ -62,7 +103,21 @@ input:invalid{
     border-radius: 1px;
 }
 
+.mainBottom{
+    margin-right: auto;
+    margin-left: 5vw;
+    margin-top: 3vh;
+}
+
 button{
     background-color: #596D48;
+    color: white;
+    border: transparent;
+    padding: 8px 25px;
+    border-radius: 5px;
+}
+
+.bottomText{
+    font-size: smaller;
 }
 
